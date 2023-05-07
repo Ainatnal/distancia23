@@ -10,7 +10,7 @@
  * 
  * @author Jose Antonio Espejo Domínguez.
  * @since 2023 - 04 - 29
- * @version 2.0 añadida opción de imprimir la lista de tareas
+ * @version 3.0 añadida opción de imprimir la lista de tareas
  * @todo En próximas versiones se añadirá opción para borrar tareas.
  */
 class ListaTareas {
@@ -23,7 +23,7 @@ class ListaTareas {
      * y lo almacena en el string de las tareas
      * 
      * @author Jose Antonio Espejo Domínguez
-     * @version 1.2 se suma la excepción al código
+     * @version 3.2 se suma la excepción al código
      * @param string $tarea Descripción de la tarea a agregar
      * @throws InvalidArgumentException si la descripción de la tarea está vacía o no es una cadena de caracteres
      */
@@ -40,7 +40,7 @@ class ListaTareas {
      * Cunado se llama a este método, nos devuelve el array con la lista de tareas.
      * 
      * @author Jose Antonio Espejo Domínguez
-     * @version 1.2
+     * @version 3.2
      * @return array Lista de tareas
      */
     public function obtenerTareas() {

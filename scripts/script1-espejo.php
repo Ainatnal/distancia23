@@ -10,7 +10,7 @@
  * 
  * @author Jose Antonio Espejo Domínguez
  * @since 2023 - 04 - 29
- * @version 2.0 Se ha añadido la  función multiplicar
+ * @version 3.0 Se ha añadido la  función multiplicar
  * @todo en próximas versiones se ñadirán funciones para restar y dividir.
  */
 
@@ -41,7 +41,7 @@ function sumar($a, $b) {
  * diferentes de 0 y devuelve el producto de ambos
  * 
  * @author Jose Antonio Espejo Domínguez
- * @version 1.0 Versión inicial 100% funcional
+ * @version 3.0 Versión inicial 100% funcional
  * @param int $a Primer número a multiplicar
  * @param int $b Segundo número a multiplicar
  * @throws InvalidArgumentException Excepción que salta si alguno de los números introducidos por parámetro es 0
